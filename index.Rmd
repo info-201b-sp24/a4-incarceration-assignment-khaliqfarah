@@ -26,13 +26,9 @@ Feel free to calculate and report values that you find relevant. Again, remember
 
 ### The Dataset
 
-Who collected the data?  
-How was the data collected or generated?  
-Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+The Vera Institute of Justice, which provides county and jurisdiction-level jail and prison data from 1970 to 2018 and 1983 to 2016, is the source of the Incarceration Trends data. The data covers a wide range of incarceration patterns both nationally and over a long period of time, as well as ongoing updates in recent years, thanks to the substantial research and grants. Additionally, Vera kept updating the data set with funds and more study. The dataset was gathered since state-level data has historically been the focus of incarceration research. By identifying county-level variations in US incarceration rates and delving into a wider range of factors, the researchers hoped to obtain more robust data.
+
+This data contains 153,811 observations, with conclusions spanning
 
 
 ### Trends Over Time Chart
