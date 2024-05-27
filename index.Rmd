@@ -5,11 +5,16 @@ output: html_document
 
 ### Introduction
 
-An introduction of the problem domain and a description of the variable(s) you are choosing to analyze (and why!)
+I will be investigating the differences in incarceration rates between genders in this project. By examining how much the percentage of men and women incarcerated varies across the nation, we can gain a clearer understanding of any gender-based discrimination in the legal system.
+
+
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+My research revealed a significant disparity in the number of men and women incarcerated. As of the most recent date in 2018, there were 6.2014802^{5} (620148) men incarcerated overall, while there were 1.0383795^{5} (103837.9) women. 2008 had the highest number of male inmates, with 6.8061372^{5} (680613.7) in prison. With 1.0383795^{5} (103837.9) females incarcerated, 2018 is the year with the largest number of females. For men, the average change (increase) in the number of people going to jail is 9907.3333333, while for women, it is 2001.6866667.
+
+
+
 
 These will likely be calculated using your DPLYR skills, answering questions such as: 
 
