@@ -16,19 +16,11 @@ My research revealed a significant disparity in the number of men and women inca
 
 
 
-These will likely be calculated using your DPLYR skills, answering questions such as: 
-
-- What is the average value of my variable across all the counties (in the current year)?
-- Where is my variable the highest / lowest?
-- How much has my variable change over the last N years?
-
-Feel free to calculate and report values that you find relevant. Again, remember that the purpose is to think about how these measure of incarceration vary by race.
-
 ### The Dataset
 
 The Vera Institute of Justice, which provides county and jurisdiction-level jail and prison data from 1970 to 2018 and 1983 to 2016, is the source of the Incarceration Trends data. The data covers a wide range of incarceration patterns both nationally and over a long period of time, as well as ongoing updates in recent years, thanks to the substantial research and grants. Additionally, Vera kept updating the data set with funds and more study. The dataset was gathered since state-level data has historically been the focus of incarceration research. By identifying county-level variations in US incarceration rates and delving into a wider range of factors, the researchers hoped to obtain more robust data.
 
-This data contains 153,811 observations, with conclusions spanning
+There are 153,811 observations in this data, and the conclusions rangeThis dataset has 153,811 observations that span 121 characteristics. One must use caution when drawing conclusions about the entire population based on a result since any conclusions drawn from analyzing or visualizing this data set would just be a correlation. The problem of incarceration is extremely delicate and takes into account several factors, including gender, color, geography, and demographics, which can differ significantly throughout numerous persons. The amount of unknown numbers in the data, which may have resulted from dubious data gathering decades ago or from remote locations with scant incarceration data, is one of the data set's limitations. This may change how accurate it is.
 
 
 ### Trends Over Time Chart
