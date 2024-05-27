@@ -7,7 +7,7 @@ summary_info <- list()
 
 summary_info$total_f_prison_2018 <- incarceration_data %>%
   filter(year == max(year)) %>%
-  summarize(recent_total_female_jail_pop = sum(female_jail_pop, na.rm = TRUE)) %>%
+  summarize(recent_total_female_jail_pop = sum(female_jail_pop, na.rm = TRUE)) %>
   pull(recent_total_female_jail_pop)
 
 summary_info$total_m_prison_2018 <- incarceration_data %>%
