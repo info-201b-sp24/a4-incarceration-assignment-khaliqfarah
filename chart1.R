@@ -5,7 +5,7 @@ library("scales")
 
 incarceration_data <- read.csv("https://raw.githubusercontent.com/vera-institute/incarceration-trends/master/incarceration_trends.csv")
 
-# Chart 1: Trends overtime -> Line plot of sum total imprisoned over time by gender
+# Chart 1: Trends overtime Line plot of sum total imprisoned over time by gender
 
 sum_female_year <- incarceration_data %>%
   group_by(year) %>%
