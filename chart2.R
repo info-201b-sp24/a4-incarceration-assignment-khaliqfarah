@@ -3,7 +3,7 @@ library(ggplot2)
 
 incarceration_data <- read.csv("https://raw.githubusercontent.com/vera-institute/incarceration-trends/master/incarceration_trends.csv")
 
-#Satterplot comparing Total Pop 15 to 64 to Total Pop in Jail 
+# Satterplot of comparing Total Pop 15 to 64 to Total Pop in Jail 
 
 f_totalpop <- incarceration_data %>%
   filter(year == max(year)) %>%
@@ -22,15 +22,15 @@ library(ggplot2)
 ggplot(f_totalpop) +
   geom_point(aes(x=percentage_pop_jail_female, y = percentage_female_pop), color="darkred") +
   ylim(0,100) +
-  ggtitle("Proportion of Female Population in County and in Jail") +
-  ylab("Percentage of Female Population in County, Ages of 15-64") +
+  ggtitle("Proportion of Female Population in County and in jaill") +
+  ylab("percentage of Female Population in County, ages of 15-64") +
   xlab("Percentage of Female Population in Jail")
 
 ggplot(m_totalpop) +
   geom_point(aes(x=percentage_pop_jail_male, y = percentage_male_pop),  color = "steelblue") +
   ylim(0,100) +
   ggtitle("Proportion of Male Population in County and in Jail") +
-  ylab("Percentage of Male Population in County, Ages of 15-64") +
+  ylab("percentage of Male Population in County, Ages of 15-64") +
   xlab("Percentage of Male Population in Jail")
 
 
