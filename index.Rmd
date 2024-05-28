@@ -46,7 +46,10 @@ Here's an example of how to run an R script inside an RMarkdown file:
 
 ### Variable Comparison Chart
 
-Include a chart. Make sure to describe why you included the chart, and what patterns emerged
+``````{r, echo = FALSE, message=FALSE, warning=FALSE, code = readLines("chart2.R")}
+```
+
+Scatter plots showing the relationship of proportion of the **overall county population** that female/male and proportion of female/male population **in jail**.
 
 The second chart that you will create and include will show how two different (continuous) variables are related to one another. Again, think carefully about what such a comparison means and what you want to communicate to your user (you may have to find relevant trends in the dataset first!). Here are some requirements to help guide your design:
 
@@ -56,7 +59,8 @@ The second chart that you will create and include will show how two different (c
 
 ### Map
 
-Include a chart. Make sure to describe why you included the chart, and what patterns emerged
+``````{r, echo = FALSE, message = FALSE, code = readLines("map.R")}
+```
 
 The last chart that you will create and include will show how a variable is distributed geographically. Again, think carefully about what such a comparison means and what you want to communicate to your user (you may have to find relevant trends in the dataset first!). Here are some requirements to help guide your design:
 
