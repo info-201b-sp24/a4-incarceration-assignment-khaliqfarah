@@ -3,7 +3,7 @@ library(ggplot2)
 
 incarceration_data <- read.csv("https://raw.githubusercontent.com/vera-institute/incarceration-trends/master/incarceration_trends.csv")
 
-# Chart 2: Scatterplot comparing Total Pop 15 to 64 to Total Pop in Jail 
+#Satterplot comparing Total Pop 15 to 64 to Total Pop in Jail 
 
 f_totalpop <- incarceration_data %>%
   filter(year == max(year)) %>%
