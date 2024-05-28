@@ -32,9 +32,7 @@ There are 153,811 observations in this data, and the conclusions rangeThis datas
 ### Variable Comparison Chart
 
 ``````{r, echo = FALSE, message=FALSE, warning=FALSE, code = readLines("chart2.R")}
-```
-``````{r, echo = FALSE, message=FALSE, warning=FALSE, code = readLines("chart2.R")}
-```
+
 
 
 
