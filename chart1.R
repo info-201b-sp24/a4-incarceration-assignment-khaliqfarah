@@ -1,3 +1,10 @@
+'''{r, echo = TRUE}
+library(ggplot2)
+source("summary.R")
+
+
+
+
 library(ggplot2)
 library(dplyr)
 library(tidyr)
