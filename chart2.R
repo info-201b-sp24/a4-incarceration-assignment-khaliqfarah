@@ -1,3 +1,13 @@
+# chart2.R
+df <- data.frame(variable1 = rnorm(100), variable2 = rnorm(100), variable3 = rnorm(100), variable4 = rnorm(100), gender = rep(c("Male", "Female"), length.out = 100))
+chart2_1 <- ggplot(df, aes(x = variable1, y = variable2, color = gender)) + geom_point() + theme_minimal()
+chart2_2 <- ggplot(df, aes(x = variable3, y = variable4, color = gender)) + geom_point() + theme_minimal()
+
+
+
+
+
+
 library(dplyr)
 library(ggplot2)
 
