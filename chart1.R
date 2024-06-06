@@ -1,3 +1,16 @@
+# chart1.R
+library(ggplot2)
+df <- data.frame(year = 2000:2010, count = rnorm(11, 100, 10), gender = rep(c("Male", "Female"), length.out = 11))
+chart1 <- ggplot(df, aes(x = year, y = count, color = gender)) + geom_line() + theme_minimal()
+
+
+
+
+
+
+
+
+
 '''{r, echo = TRUE}
 library(ggplot2)
 source("summary.R")
